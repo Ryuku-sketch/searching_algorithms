@@ -73,8 +73,8 @@ def adjBruteForce(password):
 
     endTime = time.time()
     processedTime = endTime - startTime
-    print(f"Detected Pass==========>> {detectedPass} ")
-    print(f"Actual Pass ===========>> {password}")
+    print(f"=====> Detected Pass==========>> {detectedPass} ")
+    print(f"=====> Actual Pass ===========>> {password}")
     print(f"=====> Processed Time =============>>>> {processedTime}")
 
 # %%
